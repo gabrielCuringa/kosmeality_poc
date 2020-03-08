@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16095" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16084.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Runner" customModuleProvider="target">
+            <connections>
+                <outlet property="sceneView" destination="lB7-eD-7Kb" id="AaN-j6-QyY"/>
+                <outlet property="view" destination="SH9-j8-fn6" id="oqv-nm-xkA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SH9-j8-fn6">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lB7-eD-7Kb">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                </arscnView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="lB7-eD-7Kb" firstAttribute="leading" secondItem="5Ob-ru-afp" secondAttribute="leading" id="IFZ-Ec-HNS"/>
+                <constraint firstItem="lB7-eD-7Kb" firstAttribute="top" secondItem="5Ob-ru-afp" secondAttribute="top" id="RFU-wi-hiA"/>
+                <constraint firstItem="5Ob-ru-afp" firstAttribute="trailing" secondItem="lB7-eD-7Kb" secondAttribute="trailing" id="crj-WA-lVO"/>
+                <constraint firstItem="5Ob-ru-afp" firstAttribute="bottom" secondItem="lB7-eD-7Kb" secondAttribute="bottom" id="dgv-Jd-QVl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="5Ob-ru-afp"/>
+            <point key="canvasLocation" x="-822" y="684"/>
+        </view>
+    </objects>
+</document>
